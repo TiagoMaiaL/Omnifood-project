@@ -1,0 +1,20 @@
+{
+  "name": "omnifood-project",
+  "homepage": "https://github.com/TiagoMaiaL/Omnifood-project",
+  "authors": [
+    "Tiago Maia Lopes <tiago.maia@adjetiva.com.br>"
+  ],
+  "description": "Project developed by following Udemy's couse: \"Build Responsive Real World Websites with HTML5 and CSS3\"",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies" : {
+    "normalize-css" : "4.2.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
