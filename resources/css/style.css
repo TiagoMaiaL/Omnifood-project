@@ -76,13 +76,18 @@ h3 {
   margin-bottom: 20px;
 }
 
+/* ------- links ------- */
+
+a:hover {
+  cursor: pointer;
+}
+
 /* ------- paragraphs ------- */
 
 .long-copy {
   line-height: 145%;
   width: 70%;
   margin: 0 auto;
-  /*text-align: center;*/
 }
 
 .box p {
@@ -198,5 +203,29 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+/* --------------------------------------- */
+/* Meals */
+/* --------------------------------------- */
 
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
 
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  /*overflow: hidden;*/
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
+}
