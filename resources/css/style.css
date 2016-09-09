@@ -89,8 +89,23 @@ h3 {
 
 /* ------- links ------- */
 
-a:hover {
+a {
   cursor: pointer;
+}
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 /* ------- paragraphs ------- */
@@ -113,6 +128,18 @@ a:hover {
   font-size: 350%;
   color: #e67e22;
   margin-bottom: 10px;
+}
+
+.icon-small {
+  color: #e67e22;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 120%;
+  line-height: 120%;
+  vertical-align: middle;
 }
 
 /* ------- buttons ------- */
@@ -308,8 +335,28 @@ header {
   margin-bottom: 80px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+  border: none;
+}
+
 .btn-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* --------------------------------------- */
+/* Cities section */
+/* --------------------------------------- */
+
+.section-cities .box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  font-size: 90%;
+  margin-bottom: 5px;
 }
