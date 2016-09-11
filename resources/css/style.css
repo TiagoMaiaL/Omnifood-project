@@ -14,12 +14,14 @@
   outline: none;
 }
 
-html {
+html,
+body {
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {
@@ -136,7 +138,6 @@ a:active {
   color: #e67e22;
   display: inline-block;
   width: 30px;
-  height: 30px;
   margin-right: 10px;
   text-align: center;
   font-size: 120%;
@@ -325,6 +326,10 @@ header {
   margin-bottom: 50px;
 }
 
+.works-step:last-of-type {
+  margin-bottom: 80px;
+}
+
 .works-step div {
   color: #e67e22;
   border: 2px solid #e67e22;
@@ -337,10 +342,6 @@ header {
   float: left;
   font-size: 150%;
   margin-right: 25px;
-}
-
-.works-step:last-of-type {
-  margin-bottom: 80px;
 }
 
 .btn-app:link,
@@ -420,10 +421,6 @@ cite img {
   background-color: #f4f4f4;
 }
 
-.section-plans h3 {
-
-}
-
 .plan-box {
   background-color: white;
   border-radius: 5px;
@@ -470,7 +467,6 @@ cite img {
 
 .plan-box ul li {
   padding: 5px 0;
-
 }
 
 /* --------------------------------------- */

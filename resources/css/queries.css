@@ -1,0 +1,172 @@
+
+/* Big tablet to 1200 (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* Small tablet to big table: from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .long-copy {
+    width: 80%;
+  }
+
+  .steps-box:first-child {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 50px;
+  }
+
+  .works-step {
+    margin-bottom: 40px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 70px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .icon-small {
+    margin-right: 5px;
+    width: 17px;
+  }
+
+  .city-feature {
+    font-size: 80%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+
+  .plan-box ul li {
+    font-size: 90%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+/* Small phones to small tablets: from 481 to 767 */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 185%;
+  }
+
+  h2 {
+    font-size: 150%;
+    margin-bottom: 25px;
+  }
+
+  h2:after {
+    margin-top: 20px;
+  }
+
+  .long-copy {
+    width: 100%;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 30px;
+  }
+
+  .works-step {
+    margin-bottom: 20px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+    font-size: 120%;
+  }
+}
+
+/* Small phones, like iPhone4 and 5: from 0 to 480 */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+
+  h1 {
+    font-size: 165%;
+  }
+
+  h2 {
+    font-size: 145%;
+    margin-bottom: 25px;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
