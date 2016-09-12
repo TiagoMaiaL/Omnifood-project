@@ -9,7 +9,8 @@
   "license": "MIT",
   "dependencies" : {
     "normalize-css": "4.2.0",
-    "ionicons": "2.0.1"
+    "ionicons": "2.0.1",
+    "waypoints": "4.0.1"
   },
   "ignore": [
     "**/.*",
