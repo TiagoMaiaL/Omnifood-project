@@ -83,4 +83,22 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  /**
+   * Mobile navigation.
+   */
+  $('.js-nav-icon').click(function() {
+    var navigation = $('.js-main-nav');
+    var icon = $('.js-nav-icon i');
+
+    if (icon.hasClass('ion-navicon-round')) {
+      icon.removeClass('ion-navicon-round');
+      icon.toggleClass('icon ion-close-round');
+    } else {
+      icon.removeClass('ion-close-round');
+      icon.toggleClass('icon ion-navicon-round');
+    }
+
+    navigation.slideToggle(200);
+  });
+
 });

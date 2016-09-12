@@ -228,6 +228,8 @@ header {
   float: left;
 }
 
+/* ------- Main navigation ------- */
+
 .main-nav {
   float: right;
   list-style: none;
@@ -254,6 +256,8 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
+
+/* ------- Sticky navigation ------- */
 
 .sticky {
   position: fixed;
@@ -287,6 +291,19 @@ header {
 
 .sticky .logo {
   display: none;
+}
+
+/* ------- Mobile navigation ------- */
+
+.mobile-nav-icon {
+  display: none;
+  float: right;
+  margin-top: 30px;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: white;
 }
 
 /* --------------------------------------- */
