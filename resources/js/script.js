@@ -1,7 +1,7 @@
 $(document).ready(function() {
   
   var waypoint = new Waypoint({
-    element: $('.section-features'),
+    element: $('.js-section-features'),
     handler: function(direction) {
       var navigation = $('nav');
       switch(direction) {
@@ -12,7 +12,8 @@ $(document).ready(function() {
           navigation.addClass('sticky');
           break;
       }
-    }
+    },
+    offset: '60px'
   });
 
 });
