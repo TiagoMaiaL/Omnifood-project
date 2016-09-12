@@ -10,7 +10,8 @@
   "dependencies" : {
     "normalize-css": "4.2.0",
     "ionicons": "2.0.1",
-    "waypoints": "4.0.1"
+    "waypoints": "4.0.1",
+    "animate.css": "3.5.2"
   },
   "ignore": [
     "**/.*",
